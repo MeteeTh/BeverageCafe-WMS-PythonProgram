@@ -7,9 +7,7 @@ from PIL import Image, ImageTk
 
 # ตัวแปร global เพื่อเก็บข้อมูลผู้ใช้
 users = {
-    "1": "1",
     "admin": "andy",
-    "hehehehehe":"hehe"
 }
 
 def authenticate_user(event=None):
